@@ -1,6 +1,5 @@
-class Item:
+class Storage:
     def __init__(self,name:str,picture:bytes):
         self.name = name
         self.picture = picture
-        self.is_tool:bool = False
-        self.is_food:bool = False
+        self.size:int = 1
